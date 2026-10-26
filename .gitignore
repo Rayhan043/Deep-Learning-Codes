@@ -1,0 +1,36 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+
+# Notebook runtime files
+.ipynb_checkpoints/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large/generated outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.log
+
+# Do not redistribute third-party book downloads.
+Deep-Learning-main/Module 01/Grokking Deep Learning by Andrew W. Trask (z-lib.org).pdf
